@@ -8,6 +8,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/pagination.php" afterPath="$PROJECT_DIR$/includes/pagination.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,26 +39,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+            <state relative-caret-position="-38">
+              <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <marker date="1501942046493" expanded="true" signature="336:361" ph="SELECT * FRO... photographs" />
-                <marker date="1501942046493" expanded="true" signature="1098:1105" ph="«" />
-                <marker date="1501942046493" expanded="true" signature="1421:1428" ph="»" />
+                <marker date="1501961271246" expanded="true" signature="336:361" ph="SELECT * FRO... photographs" />
+                <marker date="1501961271246" expanded="true" signature="1094:1101" ph="«" />
+                <marker date="1501961271246" expanded="true" signature="1572:1579" ph="»" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagination.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagination.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/pagination.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="118">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="n#__construct#0;n#Pagination#0;n#!!top" expanded="false" />
                 <element signature="n#offset#0;n#Pagination#0;n#!!top" expanded="false" />
@@ -67,16 +78,6 @@
                 <element signature="n#has_previous_page#0;n#Pagination#0;n#!!top" expanded="false" />
                 <element signature="n#has_next_page#0;n#Pagination#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/221835cc-ea61-4b44-ab27-45c074e0f9e6/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -105,7 +106,6 @@
         <option value="$PROJECT_DIR$/includes/users.php" />
         <option value="D:/Programiranje/Videos/Lynda.com.PHP.With.MySQL.Beyond.The.Basics.DVD/Exercise Files/Chapter06/06_12_photo_gallery/public/admin/login.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/public/layouts/admin_header.php" />
         <option value="$PROJECT_DIR$/public/layouts/header.php" />
         <option value="$PROJECT_DIR$/includes/logfile.php" />
@@ -134,8 +134,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/221835cc-ea61-4b44-ab27-45c074e0f9e6/console.sql" />
         <option value="$PROJECT_DIR$/includes/database.php" />
         <option value="$PROJECT_DIR$/includes/database_object.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/includes/pagination.php" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/public/index.php" />
       </list>
     </option>
   </component>
@@ -201,6 +202,17 @@
               <item name="photo_gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="photo_gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo_gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="photo_gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo_gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stylesheets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,7 +225,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admin/login.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="Constants" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -345,12 +357,12 @@
       <workItem from="1501782134092" duration="4413000" />
       <workItem from="1501791128793" duration="2802000" />
       <workItem from="1501870225770" duration="428000" />
-      <workItem from="1501873754000" duration="7963000" />
+      <workItem from="1501873754000" duration="9470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200708000" />
+    <option name="totallyTimeSpent" value="202215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -795,14 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/comment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -813,23 +817,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <marker date="1501942046493" expanded="true" signature="336:361" ph="SELECT * FRO... photographs" />
-            <marker date="1501942046493" expanded="true" signature="1098:1105" ph="«" />
-            <marker date="1501942046493" expanded="true" signature="1421:1428" ph="»" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/pagination.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="118">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="n#__construct#0;n#Pagination#0;n#!!top" expanded="false" />
             <element signature="n#offset#0;n#Pagination#0;n#!!top" expanded="false" />
@@ -838,6 +829,27 @@
             <element signature="n#next_page#0;n#Pagination#0;n#!!top" expanded="false" />
             <element signature="n#has_previous_page#0;n#Pagination#0;n#!!top" expanded="false" />
             <element signature="n#has_next_page#0;n#Pagination#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1501961271246" expanded="true" signature="336:361" ph="SELECT * FRO... photographs" />
+            <marker date="1501961271246" expanded="true" signature="1094:1101" ph="«" />
+            <marker date="1501961271246" expanded="true" signature="1572:1579" ph="»" />
           </folding>
         </state>
       </provider>

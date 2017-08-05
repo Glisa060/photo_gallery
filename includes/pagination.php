@@ -30,12 +30,7 @@ class Pagination
 
   public function next_page()
   {
-    if ($this->total_pages() < $this->current_page + 1)
-    {
-      return false;
-    }
-    else
-       return $this->current_page + 1;
+    return $this->current_page + 1;
   }
 
   public function has_previous_page()
