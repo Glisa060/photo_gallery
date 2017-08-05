@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Apache on XAMPP">
+    <serverData>
+      <paths name="Apache on XAMPP">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/photo_gallery" local="$PROJECT_DIR$/" web="/photo_gallery" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

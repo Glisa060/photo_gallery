@@ -1,0 +1,23 @@
+CREATE DATABASE photo_gallery;
+
+GRANT ALL PRIVILEGES on photo_gallery.* TO 'gallery'@'localhost' identified by 'password';
+
+
+CREATE TABLE photographs (
+  id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+  filename VARCHAR(255) NOT NULL ,
+  type VARCHAR(100) NOT NULL ,
+  size INT(11) NOT NULL ,
+  caption VARCHAR(255) NOT NULL
+  );
+
+
+CREATE TABLE comments(
+  id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+  photograph_id INT(11) NOT NULL ,
+  created DATETIME NOT NULL ,
+  author VARCHAR(255) NOT NULL ,
+  body TEXT NOT NULL
+  );
+
+ALTER TABLE comments ADD INDEX (photograph_id);
