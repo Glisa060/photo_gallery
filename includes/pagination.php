@@ -9,8 +9,8 @@ class Pagination
   public function __construct($page=1,$per_page=20,$total_count=0)
   {
     $this->current_page = (int)$page;
-    $this->$per_page = (int)$per_page;
-    $this->$total_count = (int)$total_count;
+    $this->per_page = (int)$per_page;
+    $this->total_count = (int)$total_count;
   }
 
   public function offset()
@@ -30,7 +30,12 @@ class Pagination
 
   public function next_page()
   {
-    return $this->current_page + 1;
+    if ($this->total_pages() < $this->current_page + 1)
+    {
+      return false;
+    }
+    else
+       return $this->current_page + 1;
   }
 
   public function has_previous_page()
