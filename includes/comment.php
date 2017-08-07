@@ -35,7 +35,7 @@ class Comment extends DatabaseObject
         return 0;
     }
 
-    public static function send_notification($author = '', $body = '')
+    public function send_notification($author = '', $body = '')
     {
       $mail = new PHPMailer;
 
@@ -53,9 +53,17 @@ class Comment extends DatabaseObject
       $mail->AddAddress('ellen@example.com');               // Name is optional
 
       $mail->IsHTML(true);                                  // Set email format to HTML
+      $created = datetime_to_text($this->created);
+      $mail->Subject = "New Comment from {$this->author}";
+      $mail->Body    = <<<EMAILBODY
+A new comment has been recieved in Photo Gallery.
 
-      $mail->Subject = "New Comment from {$author}";
-      $mail->Body    = "Comment: {$body}";
+At {$created}, {$this->author} wrote:
+
+{$this->body}
+
+EMAILBODY;
+
       //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
       if(!$mail->Send()) {

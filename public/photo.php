@@ -20,7 +20,7 @@
       $new_comment = Comment::make($photo->id, $author, $body);
       if ($new_comment && $new_comment->save())
       {
-          Comment::send_notification($author, $body);
+          $new_comment->send_notification();
           redirect_to("photo.php?id={$photo->id}");
       } else
       {
