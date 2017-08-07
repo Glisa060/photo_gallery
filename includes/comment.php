@@ -14,7 +14,7 @@ class Comment extends DatabaseObject
 
     public static function make($photo_id, $author="Anonymous", $body='')
     {
-        if (!empty($photo_id) && !empty($author && !empty($body)))
+        if (empty($photo_id) == FALSE && empty($author && !empty($body) == FALSE))
         {
             $comment = new Comment();
             $comment->photograph_id = (int)$photo_id;
@@ -27,7 +27,7 @@ class Comment extends DatabaseObject
 
     public static function find_comments_on($photo_id=0)
     {
-        if (!empty($photo_id)) {
+        if (empty($photo_id) == FALSE) {
             global $database;
             $sql = "SELECT * FROM " . self::$table_name . " WHERE photograph_id=" . $database->escape_value($photo_id) . " ORDER BY created ASC";
             return self::find_by_sql($sql);
@@ -35,7 +35,7 @@ class Comment extends DatabaseObject
         return 0;
     }
 
-    public function send_notification($author = '', $body = '')
+    public function send_notification()
     {
       $mail = new PHPMailer;
 
@@ -66,7 +66,7 @@ EMAILBODY;
 
       //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-      if(!$mail->Send()) {
+      if (!$mail->Send()) {
         echo 'Message could not be sent.';
         echo 'Mailer Error: ' . $mail->ErrorInfo;
         exit;
