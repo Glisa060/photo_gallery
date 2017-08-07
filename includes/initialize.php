@@ -16,3 +16,6 @@ require_once LIB_PATH.DS.'pagination.php';
 require_once LIB_PATH.DS.'user.php';
 require_once LIB_PATH.DS.'photograph.php';
 require_once LIB_PATH.DS.'comment.php';
+
+require_once LIB_PATH.DS.'phpmailer'.DS.'PHPMailerAutoload.php';
+

@@ -5,6 +5,7 @@ class Session
     private $logged_in = false;
     public $user_id;
     public $message;
+    public $submit;
 
     function __construct()
     {

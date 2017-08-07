@@ -1,4 +1,5 @@
-<?php require_once("../includes/initialize.php"); ?>
+<?php require_once "../includes/initialize.php"; ?>
+
 <?php
   if(empty($_GET['id'])) {
     $session->message("No photograph ID was provided.");
@@ -19,6 +20,7 @@
       $new_comment = Comment::make($photo->id, $author, $body);
       if ($new_comment && $new_comment->save())
       {
+          Comment::send_notification($author, $body);
           redirect_to("photo.php?id={$photo->id}");
       } else
       {

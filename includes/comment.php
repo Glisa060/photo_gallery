@@ -34,4 +34,36 @@ class Comment extends DatabaseObject
         }
         return 0;
     }
+
+    public static function send_notification($author = '', $body = '')
+    {
+      $mail = new PHPMailer;
+
+      $mail->IsSMTP();                                      // Set mailer to use SMTP
+      $mail->Host = 'smtp.mail.yahoo.com';                 // Specify main and backup server
+      $mail->Port = 465;                                    // Set the SMTP port
+      $mail->SMTPAuth = true;                               // Enable SMTP authentication
+      $mail->Username = 'milanglisic@ymail.com';                // SMTP username
+      $mail->Password = '88a97A2222';                  // SMTP password
+      $mail->SMTPSecure = 'ssl';                            // Enable encryption, 'ssl' also accepted
+
+      $mail->From = 'milanglisic@ymail.com';
+      $mail->FromName = 'Milan';
+      $mail->AddAddress('thegreatmilanglisic@gmail.com', 'Josh Adams');  // Add a recipient
+      $mail->AddAddress('ellen@example.com');               // Name is optional
+
+      $mail->IsHTML(true);                                  // Set email format to HTML
+
+      $mail->Subject = "New Comment from {$author}";
+      $mail->Body    = "Comment: {$body}";
+      //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+      if(!$mail->Send()) {
+        echo 'Message could not be sent.';
+        echo 'Mailer Error: ' . $mail->ErrorInfo;
+        exit;
+      }
+
+      echo 'Message has been sent';
+    }
 }
