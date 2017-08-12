@@ -4,10 +4,15 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acfd052-a7ec-4216-88b5-17bf677619ea" name="Default" comment="Fix">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/221835cc-ea61-4b44-ab27-45c074e0f9e6.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/221835cc-ea61-4b44-ab27-45c074e0f9e6.xml" />
+    <list default="true" id="8acfd052-a7ec-4216-88b5-17bf677619ea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/photo_gallery.iml" afterPath="$PROJECT_DIR$/.idea/photo_gallery.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/comment.php" afterPath="$PROJECT_DIR$/includes/comment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/functions.php" afterPath="$PROJECT_DIR$/includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/phpmailer/composer.json" afterPath="$PROJECT_DIR$/includes/phpmailer/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/phpmailer/composer.lock" afterPath="$PROJECT_DIR$/includes/phpmailer/composer.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,9 +21,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="3ac166e0-d9b4-4c73-8fef-f56eea38957f" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>C:\xampp\htdocs\photo_gallery\includes\phpmailer\composer.json</pharConfigPath>
-    <executablePath>C:\ProgramData\ComposerSetup\bin\composer</executablePath>
+    <pharPath>C:\ProgramData\ComposerSetup\bin\composer.phar</pharPath>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,52 +46,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database_object.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/database_object.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <marker date="1501875624081" expanded="true" signature="1131:1152" ph="SELECT COUNT... ${static::$table_name}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initialize.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/initialize.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <marker date="1502142430710" expanded="true" signature="995:1118" ph="SELECT * FRO... ${self::$table_name}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -126,7 +86,6 @@
         <option value="$PROJECT_DIR$/public/layouts/footer.php" />
         <option value="$PROJECT_DIR$/public/admin/delete_comment.php" />
         <option value="$PROJECT_DIR$/public/admin/photo_upload.php" />
-        <option value="$PROJECT_DIR$/includes/functions.php" />
         <option value="$PROJECT_DIR$/includes/photograph.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/221835cc-ea61-4b44-ab27-45c074e0f9e6/console.sql" />
         <option value="$PROJECT_DIR$/includes/database.php" />
@@ -143,6 +102,7 @@
         <option value="$PROJECT_DIR$/includes/initialize.php" />
         <option value="$PROJECT_DIR$/public/photo.php" />
         <option value="$PROJECT_DIR$/includes/comment.php" />
+        <option value="$PROJECT_DIR$/includes/functions.php" />
       </list>
     </option>
   </component>
@@ -157,7 +117,78 @@
       <server host="localhost/" id="c7372bdf-47b1-4b1f-83e7-1a669f80effa" name="Apache on XAMPP" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/composer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zetacomponents/base" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zetacomponents/document" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-serializer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-cache" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-i18n" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-math" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-config" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-filter" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/fileset" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/graphviz" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/reflection" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/kherge/version" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/cilex/cilex" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/cilex/console-service-provider" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/phpdocumentor" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/herrera-io/phar-update" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/herrera-io/json" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/drupal/coder" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="31" />
     <option name="y" value="53" />
@@ -177,7 +208,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>UnusedPHP</id>
+            <id>PhpCSValidationInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -185,7 +216,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -198,13 +229,32 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="photo_gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo_gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="photo_gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo_gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admin/login.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="Constants" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -352,12 +402,27 @@
       <workItem from="1502140869921" duration="1389000" />
       <workItem from="1502142315269" duration="116000" />
       <workItem from="1502143429592" duration="144000" />
-      <workItem from="1502144557270" duration="315000" />
+      <workItem from="1502144557270" duration="1013000" />
+      <workItem from="1502149662432" duration="69000" />
+      <workItem from="1502237269340" duration="165000" />
+      <workItem from="1502280253148" duration="17000" />
+      <workItem from="1502297166646" duration="43000" />
+      <workItem from="1502323003589" duration="61000" />
+      <workItem from="1502404713900" duration="14000" />
+      <workItem from="1502412712768" duration="39000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix">
+      <created>1502144882295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502144882296</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225277000" />
+    <option name="totallyTimeSpent" value="226383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,30 +435,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34114978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36762482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263158" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43092105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263158" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43092105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -734,38 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding>
-            <element signature="n#strip_zeros_from_date#0;n#!!top" expanded="false" />
-            <element signature="n#redirect_to#0;n#!!top" expanded="false" />
-            <element signature="e#352#438#0#PHP" expanded="false" />
-            <element signature="n#output_message#0;n#!!top" expanded="false" />
-            <element signature="e#485#611#0#PHP" expanded="false" />
-            <element signature="e#576#611#0#PHP" expanded="false" />
-            <element signature="n#__autoload#0;n#!!top" expanded="false" />
-            <element signature="e#742#889#0#PHP" expanded="false" />
-            <element signature="e#810#889#0#PHP" expanded="false" />
-            <element signature="n#include_layout_template#0;n#!!top" expanded="false" />
-            <element signature="n#log_action#0;n#!!top" expanded="false" />
-            <element signature="e#1088#1442#0#PHP" expanded="false" />
-            <element signature="e#1381#1442#0#PHP" expanded="false" />
-            <element signature="n#datetime_to_text#0;n#!!top" expanded="false" />
-            <element signature="n#get_photos#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/database_object.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -783,20 +815,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/initialize.php">
+    <entry file="file://$PROJECT_DIR$/includes/comment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="21">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1502142430710" expanded="true" signature="995:1118" ph="SELECT * FRO... ${self::$table_name}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/comment.php">
+    <entry file="file://$PROJECT_DIR$/includes/initialize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="210">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1502142430710" expanded="true" signature="995:1118" ph="SELECT * FRO... ${self::$table_name}" />
+            <element signature="n#strip_zeros_from_date#0;n#!!top" expanded="false" />
+            <element signature="n#redirect_to#0;n#!!top" expanded="false" />
+            <element signature="e#351#437#0#PHP" expanded="false" />
+            <element signature="n#output_message#0;n#!!top" expanded="false" />
+            <element signature="e#484#610#0#PHP" expanded="false" />
+            <element signature="e#575#610#0#PHP" expanded="false" />
+            <element signature="n#__autoload#0;n#!!top" expanded="false" />
+            <element signature="n#include_layout_template#0;n#!!top" expanded="false" />
+            <element signature="n#log_action#0;n#!!top" expanded="false" />
+            <element signature="e#1087#1441#0#PHP" expanded="false" />
+            <element signature="e#1380#1441#0#PHP" expanded="false" />
+            <element signature="n#datetime_to_text#0;n#!!top" expanded="false" />
+            <element signature="n#get_photos#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

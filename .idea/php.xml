@@ -1,8 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/composer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zetacomponents/base" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zetacomponents/document" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-serializer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-cache" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-i18n" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-math" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-config" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/zendframework/zend-filter" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/fileset" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/graphviz" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/reflection" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/kherge/version" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/cilex/cilex" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/cilex/console-service-provider" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpdocumentor/phpdocumentor" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/herrera-io/phar-update" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/herrera-io/json" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/includes/phpmailer/vendor/drupal/coder" />
+    </include_path>
+  </component>
   <component name="PhpProjectServersManager">
     <servers>
       <server host="localhost/" id="c7372bdf-47b1-4b1f-83e7-1a669f80effa" name="Apache on XAMPP" />
     </servers>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="C:/xampp/htdocs/photo_gallery/includes/phpmailer/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
 </project>

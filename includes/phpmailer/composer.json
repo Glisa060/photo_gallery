@@ -21,7 +21,8 @@
     ],
     "require": {
         "ext-ctype": "*",
-        "php": ">=5.0.0"
+        "php": ">=5.0.0",
+        "drupal/coder": "8.2.12"
     },
     "require-dev": {
         "doctrine/annotations": "1.2.*",

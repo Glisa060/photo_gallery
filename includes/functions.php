@@ -10,7 +10,7 @@ function strip_zeros_from_date($marked_string='')
     return $cleaned_string;
 }
 
-function  redirect_to($location = NULL)
+function redirect_to($location = NULL)
 {
     if($location != NULL)
     {

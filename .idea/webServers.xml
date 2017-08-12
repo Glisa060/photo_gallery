@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="7c7ae4ea-c6c2-4de3-a958-e13cd5664a75" name="Apache on XAMPP" url="http://localhost">
+      <webServer id="7c7ae4ea-c6c2-4de3-a958-e13cd5664a75" name="Photo Gallery" url="http://localhost">
         <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\photo_gallery" accessType="MOUNT" />
       </webServer>
     </option>
