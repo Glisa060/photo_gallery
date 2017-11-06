@@ -44,7 +44,7 @@ class Comment extends DatabaseObject
       $mail->Port = 465;                                    // Set the SMTP port
       $mail->SMTPAuth = true;                               // Enable SMTP authentication
       $mail->Username = 'milanglisic@ymail.com';                // SMTP username
-      $mail->Password = '88a97A2222';                  // SMTP password
+      $mail->Password = 'password';                  // SMTP password
       $mail->SMTPSecure = 'ssl';                            // Enable encryption, 'ssl' also accepted
 
       $mail->From = 'milanglisic@ymail.com';
